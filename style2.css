@@ -1,0 +1,26 @@
+body{
+    background-color:#2323;
+    font-size: 40px;
+}
+
+h1 {
+    font-family:sans-serif;
+    color: grey;
+    font-size: 20px;
+    transform: translate(23%);
+}
+.text-box1 input[type="submit"]{
+    border:0;
+    background:white;
+    display: block;
+    margin: 20 auto;
+    text-align: center;
+    border:2px solid white;
+    padding:6px 50px;
+    outline:none;
+    border-radius: 2px;
+    color: green;
+    transform: translate(-50%,-38%);
+    transition: 0.30s;
+    cursor: pointer;
+}
