@@ -1,3 +1,42 @@
 body{
-    background-color: #fffff;
+    background-color:#2323;
+}
+
+h1 {
+    font-family:sans-serif;
+    color: grey;
+    font-size: 20px;
+    transform: translate(23%);
+    
+}
+.text-box input[type="text"],.text-box input[type="text"]{
+    color: green;
+    border:0;
+    background:white;
+    display: block;
+    margin:1px auto;
+    text-align: center;
+    border:3px solid white;
+    padding:12px 10px;
+    width: 150px;
+    height: 3px;
+    outline: none;
+    border-radius: 4px;
+    transition: 0.50s;
+    transform: translate(-50%,-20%);
+}
+.text-box input[type="submit"]{
+    border:0;
+    background:white;
+    display: block;
+    margin: 20 auto;
+    text-align: center;
+    border:2px solid white;
+    padding:6px 50px;
+    outline:none;
+    border-radius: 2px;
+    color: green;
+    transform: translate(-50%,-38%);
+    transition: 0.30s;
+    cursor: pointer;
 }
